@@ -1,0 +1,238 @@
+{
+ "run_id": "RUN-20261122-110649-71c4df",
+ "agent": "pattern_review",
+ "subject_id": "Q-RIV-871",
+ "model": "gpt-5.4-mini",
+ "status": "completed",
+ "turns": [
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_txVRBDzEfp8PXeFLPlcMNYVq",
+     "name": "list_metrics",
+     "arguments": "{}"
+    }
+   ],
+   "input_tokens": 823,
+   "output_tokens": 13
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_XGEb85kAm3wXViqoPxG4rKgx",
+     "name": "get_notes",
+     "arguments": "{}"
+    }
+   ],
+   "input_tokens": 1694,
+   "output_tokens": 13
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_THb0hWZZNqWdPscpNULPlT3Y",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2023\"}"
+    },
+    {
+     "id": "call_ERBHdOiXwaBg5cYRQlaU2YTL",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024\"}"
+    },
+    {
+     "id": "call_grAZtCHzm9fhKRYCaaEqYxGd",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025\"}"
+    },
+    {
+     "id": "call_pkau84ks82APxSnAKfKXqGua",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024q1\"}"
+    },
+    {
+     "id": "call_j9d4Ov5suEpLztNC7ejPHBX0",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024q2\"}"
+    },
+    {
+     "id": "call_fFg0jKwah7RbXRhfFaXrrSHN",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024q3\"}"
+    },
+    {
+     "id": "call_GgKeLXtkMqdWemVOVkATP9uy",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024q4\"}"
+    },
+    {
+     "id": "call_cQs1e7lQtyvUKHwUun0YeV5D",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025q1\"}"
+    },
+    {
+     "id": "call_aUUx8zg0DZoHMIcC9XJqLD4y",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025q2\"}"
+    },
+    {
+     "id": "call_P5W3JZ9QWHSAeLpsJUzxkvP9",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025q3\"}"
+    },
+    {
+     "id": "call_qXxN9BkFhbY3kJ6fcHnMFsVk",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025q4\"}"
+    },
+    {
+     "id": "call_Rap3D9EymNFFc4YmWrzPGSvm",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_community_2023\"}"
+    },
+    {
+     "id": "call_LKQS1iBiQegXuxa2FUlBMomu",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_community_2025\"}"
+    },
+    {
+     "id": "call_Zceuw4nMYkJphaHYVHopzmtN",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_referral_2023\"}"
+    },
+    {
+     "id": "call_wLJxi7Bs4IIbfwGl6ag25Q03",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_referral_2025\"}"
+    },
+    {
+     "id": "call_dcHPnBAwf6mRvRsgh4szzsPj",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"icu_rate_871_riverside\"}"
+    },
+    {
+     "id": "call_cIeZxplBvqkmvz3OmsnBW68E",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"transfer_rate_871_riverside\"}"
+    },
+    {
+     "id": "call_TqZYZxv6nCJr8wS1uAW1xvTH",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"median_los_871_riverside\"}"
+    },
+    {
+     "id": "call_DpLNzbFrxwvEUGSFMdUtHX7z",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"member_risk_riverside\"}"
+    },
+    {
+     "id": "call_6m4NS3t2lZ9IJO99IJYWv2ME",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"icu_rate_871_community\"}"
+    },
+    {
+     "id": "call_s1nRWmU740sAhXuLrFmwIOrp",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"transfer_rate_871_community\"}"
+    },
+    {
+     "id": "call_TLWYUf6NqxdQvHKhvE3l7h8d",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"median_los_871_community\"}"
+    },
+    {
+     "id": "call_Os7ME3iSj8CXV32gk2wEDOxX",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"member_risk_community\"}"
+    },
+    {
+     "id": "call_r8uHqb6LgM51ONrKtr3GfnaL",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"dq_duplicate_stays_riverside\"}"
+    },
+    {
+     "id": "call_myNxnkpFA5P8coOa6IYWGNao",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"dq_payment_mismatch_riverside\"}"
+    },
+    {
+     "id": "call_HLATibXIHZ8ptklWnRWHeDc6",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"contract_sepsis_criteria_riverside\"}"
+    }
+   ],
+   "input_tokens": 2082,
+   "output_tokens": 582
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_L6ZvVT0FEKwnZZz6OEYgnUNz",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\":\"data_error\",\"status\":\"weakened\",\"summary\":\"Two data checks found nothing: no possible duplicate stays and no claims where paid amount did not match the billed DRG payment. That weakens a data-processing or payment-file error for the checks made, though it does not fully rule out other data issues.\",\"citations\":[\"dq_duplicate_stays_riverside\",\"dq_payment_mismatch_riverside\"]}"
+    }
+   ],
+   "input_tokens": 4266,
+   "output_tokens": 99
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_P0TN54ITOt2mjCmLYmbKNfhN",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\":\"data_error\",\"status\":\"weakened\",\"summary\":\"Two data checks found nothing: no possible duplicate stays and no claims where paid amount did not match the billed DRG payment. That weakens a data-processing or payment-file error for the checks made, though other data issues are still possible.\",\"citations\":[\"dq_duplicate_stays_riverside\",\"dq_payment_mismatch_riverside\"]}"
+    }
+   ],
+   "input_tokens": 4399,
+   "output_tokens": 96
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_fXX4QwMhBxaTzPoxjsTNQEEX",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"peer_comparability\", \"status\": \"supported_in_part\", \"summary\": \"Riverside's DRG 871 share is higher than both peer groups in 2025 (38.0% vs 18.1% community median and 24.0% referral median), but it was not consistently above peers earlier because 2023 was below the referral median. The higher 2025 rate suggests the pattern is not fully explained by peer mix alone, though peer differences may account for some of it.\", \"citations\": [\"share_riverside_2025\", \"peer_median_community_2025\", \"peer_median_referral_2025\", \"share_riverside_2023\", \"peer_median_referral_2023\"]}"
+    },
+    {
+     "id": "call_oYB6rvxzrEAXAbBW8q3c99jg",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"patient_severity\", \"status\": \"unresolved\", \"summary\": \"Riverside's 2025 DRG 871 stays have a higher average risk score than community peers, but they also have a lower ICU-day rate and shorter median length of stay. Because the severity signals point in different directions, the claims data do not answer whether sicker patients explain the gap.\", \"citations\": [\"member_risk_riverside\", \"member_risk_community\", \"icu_rate_871_riverside\", \"icu_rate_871_community\", \"median_los_871_riverside\", \"median_los_871_community\"]}"
+    },
+    {
+     "id": "call_ojNYM5oOM16BWoI3N2pIGoZL",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"transfers\", \"status\": \"supported_in_part\", \"summary\": \"Riverside accepts transfers as a regional referral hospital, and its 2025 DRG 871 stays have a higher transfer-in rate than community peers (13.8% vs 5.0%). That supports transfers as part of the explanation, but it does not by itself account for the full share difference.\", \"citations\": [\"N2\", \"transfer_rate_871_riverside\", \"transfer_rate_871_community\", \"share_riverside_2025\", \"peer_median_community_2025\"]}"
+    },
+    {
+     "id": "call_SoJoCJOfBFL6OgnztyGL39RS",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"documentation_change\", \"status\": \"unresolved\", \"summary\": \"Riverside started a CDI program in January 2024 focused on sepsis documentation, and the rise in DRG 871 share follows that timing. But claims data cannot tell whether this reflects more complete documentation of the same clinical picture or a broader working definition, so this remains unresolved.\", \"citations\": [\"N1\", \"share_riverside_2023\", \"share_riverside_2024\", \"share_riverside_2025\"]}"
+    },
+    {
+     "id": "call_oOljuX11hezGfNvKVDBhOthC",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"clinical_definition\", \"status\": \"unresolved\", \"summary\": \"The contract summary says Riverside's agreement uses MS-DRG grouping and audit rights, but it does not specify which clinical criteria apply when validating sepsis. Because the contract is silent on the criteria, the clinical-definition question cannot be answered from claims alone.\", \"citations\": [\"N3\", \"contract_sepsis_criteria_riverside\"]}"
+    }
+   ],
+   "input_tokens": 4546,
+   "output_tokens": 646
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_3cUTfBBPKuKr2jfBl2x5eUqR",
+     "name": "draft_sample_rationale",
+     "arguments": "{\"rationale\":\"A targeted review of medical records can answer the questions that claims data cannot. It can check whether the higher DRG 871 share reflects true sepsis severity, more complete documentation after the CDI program, or a broader working definition of sepsis than the contract and claims data can show. It can also confirm whether transferred-in patients and referral cases are being assigned DRG 871 appropriately and whether the clinical notes support the coded severity. The sample should focus on the periods before and after the 2024 CDI launch and on a mix of transfer and non-transfer cases. A targeted sample cannot be extrapolated to Riverside General's other stays, because records review only shows what is happening in the cases reviewed, not the entire population.\"}"
+    }
+   ],
+   "input_tokens": 5328,
+   "output_tokens": 165
+  }
+ ]
+}

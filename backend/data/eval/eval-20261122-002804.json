@@ -1,0 +1,192 @@
+{
+ "results": [
+  {
+   "missing_facts": [],
+   "case": "CASE-ORTIZ",
+   "run_id": "RUN-20261122-002701-3eed74",
+   "conclusion": "demonstrated",
+   "sofa_change": 4,
+   "steps": 26,
+   "rejected": 0,
+   "input_tokens": 34056,
+   "output_tokens": 1504,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-LEE",
+   "run_id": "RUN-20261122-002701-682956",
+   "conclusion": "not_demonstrated",
+   "sofa_change": 1,
+   "steps": 26,
+   "rejected": 0,
+   "input_tokens": 38957,
+   "output_tokens": 1655,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-PATEL",
+   "run_id": "RUN-20261122-002701-f3c454",
+   "conclusion": "cannot_determine",
+   "sofa_change": 0,
+   "steps": 31,
+   "rejected": 2,
+   "input_tokens": 69432,
+   "output_tokens": 2035,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "baseline_uncertain": true,
+    "conflict_recorded": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-NGUYEN",
+   "run_id": "RUN-20261122-002701-a657a5",
+   "conclusion": "demonstrated",
+   "sofa_change": 3,
+   "steps": 26,
+   "rejected": 0,
+   "input_tokens": 32876,
+   "output_tokens": 1821,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "coding_question": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-BROOKS",
+   "run_id": "RUN-20261122-002712-f4970d",
+   "conclusion": "demonstrated",
+   "sofa_change": 2,
+   "steps": 27,
+   "rejected": 0,
+   "input_tokens": 34705,
+   "output_tokens": 1662,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-BG04",
+   "run_id": "RUN-20261122-002713-4ea018",
+   "conclusion": "demonstrated",
+   "sofa_change": 5,
+   "steps": 29,
+   "rejected": 0,
+   "input_tokens": 33469,
+   "output_tokens": 1725,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-BG10",
+   "run_id": "RUN-20261122-002714-f16fd5",
+   "conclusion": "not_demonstrated",
+   "sofa_change": 0,
+   "steps": 35,
+   "rejected": 0,
+   "input_tokens": 40855,
+   "output_tokens": 1478,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "coding_question": true
+   }
+  }
+ ],
+ "summary": {
+  "CASE-ORTIZ": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 26,
+   "avg_input_tokens": 34056
+  },
+  "CASE-LEE": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 26,
+   "avg_input_tokens": 38957
+  },
+  "CASE-PATEL": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 31,
+   "avg_input_tokens": 69432
+  },
+  "CASE-NGUYEN": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 26,
+   "avg_input_tokens": 32876
+  },
+  "CASE-BROOKS": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 27,
+   "avg_input_tokens": 34705
+  },
+  "CASE-BG04": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 29,
+   "avg_input_tokens": 33469
+  },
+  "CASE-BG10": {
+   "runs": 1,
+   "all_checks": 1,
+   "conclusion_correct": 1,
+   "median_steps": 35,
+   "avg_input_tokens": 40855
+  }
+ }
+}

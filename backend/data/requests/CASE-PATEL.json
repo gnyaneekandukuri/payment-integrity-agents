@@ -1,0 +1,38 @@
+{
+ "items": [
+  {
+   "request": "Please send the physician, nursing, and/or ED documentation that best shows Ravi Patel\u2019s mental status at presentation and during the first overnight period of the admission (for example, the initial provider assessment and overnight nursing notes).",
+   "reason": "The record contains conflicting information about mental status: the physician note/H&P state his thinking was at baseline (p. 1-2), while nursing documentation describes confusion/disorientation overnight. This is needed to clarify the worst documented acute mental status.",
+   "pages": [
+    1,
+    2
+   ]
+  },
+  {
+   "request": "Please send any documentation that would support a scorable CNS/neurologic value for this admission, such as any recorded GCS, RASS, or other neurologic assessment values, or any blood gas/oxygenation documentation if that is the relevant source for the score.",
+   "reason": "The available record does not include a scorable CNS measure, and the current documentation does not provide a value that can be used to establish the CNS SOFA change.",
+   "pages": [
+    6,
+    9
+   ]
+  },
+  {
+   "request": "Please send any prior or baseline renal function documentation available from before this admission, such as an outpatient creatinine/eGFR or prior kidney function report referenced in the chart.",
+   "reason": "The chart documents acute kidney injury on chronic kidney disease with baseline uncertain, and lists chronic kidney disease stage 3, but no sourced baseline renal value is present to establish the renal SOFA change.",
+   "pages": [
+    1,
+    2,
+    7
+   ]
+  },
+  {
+   "request": "Please send any respiratory documentation that would support a scorable oxygenation value for this admission, such as an arterial blood gas, prior baseline oxygenation data, home oxygen use, or any additional oxygenation results not included in the records sent.",
+   "reason": "The record shows hypoxemia and oxygen use (SpO2 89% on room air, then 2 L NC), but does not include a scorable respiratory measurement needed to establish the respiratory SOFA change.",
+   "pages": [
+    4,
+    6
+   ]
+  }
+ ],
+ "letter": "Riverside General Hospital\nHealth Information Management Department\n\nRe: Claim No. CLM-RIV-2025-CASE03\nPatient: Ravi Patel\nDates of Service: 2025-09-18 to 2025-09-22\n\nDear Health Information Management Department,\n\nWe are reviewing the above inpatient claim and need a few additional records to complete our clinical review. Please send the following items:\n\n1. Please send the physician, nursing, and/or ED documentation that best shows Ravi Patel\u2019s mental status at presentation and during the first overnight period of the admission (for example, the initial provider assessment and overnight nursing notes).\n2. Please send any documentation that would support a scorable CNS/neurologic value for this admission, such as any recorded GCS, RASS, or other neurologic assessment values, or any blood gas/oxygenation documentation if that is the relevant source for the score.\n3. Please send any prior or baseline renal function documentation available from before this admission, such as an outpatient creatinine/eGFR or prior kidney function report referenced in the chart.\n4. Please send any respiratory documentation that would support a scorable oxygenation value for this admission, such as an arterial blood gas, prior baseline oxygenation data, home oxygen use, or any additional oxygenation results not included in the records sent.\n\nPlease respond within 14 days. Thank you for your assistance.\n\nSincerely,\n\nSam Okoro, RN\nClinical Reviewer\nNorthstar Health Plan Payment Integrity"
+}

@@ -1,0 +1,14 @@
+[project]
+name = "payment-integrity-agents"
+version = "0.1.0"
+description = "Payment integrity agents: lead investigation and clinical evidence review (fictional data)"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.165.0",
+    "openai>=3.57.0",
+    "pydantic>=2.14.4",
+    "pymupdf>=2.1",
+    "python-dotenv>=1.2.4",
+    "python-multipart>=0.0.34",
+    "uvicorn[standard]>=0.54.0",
+]

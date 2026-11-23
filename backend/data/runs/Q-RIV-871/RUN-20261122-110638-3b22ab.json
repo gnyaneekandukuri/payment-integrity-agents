@@ -1,0 +1,179 @@
+{
+ "run_id": "RUN-20261122-110638-3b22ab",
+ "agent": "pattern_review",
+ "subject_id": "Q-RIV-871",
+ "model": "gpt-5.4-mini",
+ "status": "completed",
+ "turns": [
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_WrCAEYGuhPMIyb8QTt2Y0muu",
+     "name": "list_metrics",
+     "arguments": "{}"
+    }
+   ],
+   "input_tokens": 823,
+   "output_tokens": 13
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_UnCRDB5xZeR4SPzSqvIiFv0c",
+     "name": "get_notes",
+     "arguments": "{}"
+    }
+   ],
+   "input_tokens": 1694,
+   "output_tokens": 13
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_q3ZvPeWOqbbo2RMFjmdmPJdu",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2023\"}"
+    },
+    {
+     "id": "call_ylWZ4tyHauzOGDRAr0kK8zVE",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2024\"}"
+    },
+    {
+     "id": "call_YqsebDrWRohXibAhQziPCJ0N",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"share_riverside_2025\"}"
+    },
+    {
+     "id": "call_5PsHuwNcxvlDBn2P80LXE66U",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_community_2023\"}"
+    },
+    {
+     "id": "call_w67W8DePUTUb1NAdexb0yIbn",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_community_2025\"}"
+    },
+    {
+     "id": "call_htHCXYOXYUC00Axds4MMixcT",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_referral_2023\"}"
+    },
+    {
+     "id": "call_nc8FWeBJzyOx2s8s9NeRWqla",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"peer_median_referral_2025\"}"
+    },
+    {
+     "id": "call_vEjuOV4V1nX9bYEAhyqyLBkK",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"icu_rate_871_riverside\"}"
+    },
+    {
+     "id": "call_4TRjjucjNBhnax0YlnMuyJuh",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"transfer_rate_871_riverside\"}"
+    },
+    {
+     "id": "call_4JoumwUpuZyi0PLleC8nRenf",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"median_los_871_riverside\"}"
+    },
+    {
+     "id": "call_NyzL1Kjzcrbe0TCj499em4Hg",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"member_risk_riverside\"}"
+    },
+    {
+     "id": "call_ZGNZvbgw1PgpuNGq5Yn6mdBB",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"icu_rate_871_community\"}"
+    },
+    {
+     "id": "call_WQF0fTRcidvXPTIA1Vs3BW52",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"transfer_rate_871_community\"}"
+    },
+    {
+     "id": "call_IPQqKy6L4vsKFgc17brBqEJH",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"median_los_871_community\"}"
+    },
+    {
+     "id": "call_zh22eIBxtK8E2l8BCZxjk7BB",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"member_risk_community\"}"
+    },
+    {
+     "id": "call_DmwIXs3I5aur2bFB6tIpRoaL",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"dq_duplicate_stays_riverside\"}"
+    },
+    {
+     "id": "call_QvV3p1QnNJcWM9B8iinznDqC",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"dq_payment_mismatch_riverside\"}"
+    },
+    {
+     "id": "call_Ms9YaRAIq9jl0pXagMPuvDWY",
+     "name": "get_metric",
+     "arguments": "{\"metric_id\": \"contract_sepsis_criteria_riverside\"}"
+    }
+   ],
+   "input_tokens": 2082,
+   "output_tokens": 398
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_vN9cfI7DN3TQ3DAeDvEutY7I",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"data_error\", \"status\": \"weakened\", \"summary\": \"Basic data checks did not find duplicate same-day admissions or payment mismatches in Riverside's claims, so those checks do not explain the higher DRG 871 share for the items reviewed.\", \"citations\": [\"dq_duplicate_stays_riverside\", \"dq_payment_mismatch_riverside\"]}"
+    },
+    {
+     "id": "call_537HrPDGqDBIVh6Q4phwuUCa",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"peer_comparability\", \"status\": \"supported_in_part\", \"summary\": \"Riverside's DRG 871 share is higher than both peer medians in 2025, but the 2023 pattern was mixed versus peers, and the contract/notes do not show a peer-comparison issue that would by itself account for the full gap.\", \"citations\": [\"share_riverside_2023\", \"share_riverside_2025\", \"peer_median_community_2023\", \"peer_median_community_2025\", \"peer_median_referral_2023\", \"peer_median_referral_2025\", \"N2\", \"N4\"]}"
+    },
+    {
+     "id": "call_ggE1Lq1kkkxWWXjv6xJiGDyd",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"patient_severity\", \"status\": \"unresolved\", \"summary\": \"Riverside's 2025 DRG 871 stays show higher average member risk than community peers, but they also have lower ICU use and shorter length of stay. Because the indicators point in different directions, the claims data do not answer whether sicker patients explain the higher DRG 871 share.\", \"citations\": [\"member_risk_riverside\", \"icu_rate_871_riverside\", \"median_los_871_riverside\", \"member_risk_community\", \"icu_rate_871_community\", \"median_los_871_community\"]}"
+    },
+    {
+     "id": "call_j6heFoTlHoK6vzPGNjuI4T2V",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"transfers\", \"status\": \"supported_in_part\", \"summary\": \"Riverside receives a higher share of DRG 871 stays as transfers than community peers, and it is the referral hospital for nearby community hospitals. That likely explains part of the pattern, but the transfer rate alone does not account for the full gap.\", \"citations\": [\"transfer_rate_871_riverside\", \"transfer_rate_871_community\", \"N2\"]}"
+    },
+    {
+     "id": "call_XnS6fN6iFr5PlxG8RJogOR4Z",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"documentation_change\", \"status\": \"unresolved\", \"summary\": \"Riverside started a CDI program focused on sepsis in January 2024, before the increase in the DRG 871 share. Claims data can show timing, but they cannot tell whether the change reflects better documentation of real sepsis or a broader working definition.\", \"citations\": [\"N1\", \"share_riverside_2023\", \"share_riverside_2024\", \"share_riverside_2025\"]}"
+    },
+    {
+     "id": "call_6qdPrOjuFktT9Xw6SuOsBDtU",
+     "name": "record_explanation",
+     "arguments": "{\"explanation\": \"clinical_definition\", \"status\": \"unresolved\", \"summary\": \"The contract summary says Riverside's agreement is silent on which clinical sepsis criteria apply for validation. Because the criteria are not specified, the claims data cannot answer whether the hospital and plan are using the same clinical definition.\", \"citations\": [\"N3\", \"contract_sepsis_criteria_riverside\"]}"
+    }
+   ],
+   "input_tokens": 3642,
+   "output_tokens": 670
+  },
+  {
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "call_Oy2dP1HPtsL3DtIiWX98TPPu",
+     "name": "draft_sample_rationale",
+     "arguments": "{\"rationale\":\"A targeted records review is useful for the unresolved questions: whether Riverside's 2025 DRG 871 cases met the clinical sepsis criteria used by the plan, and whether the higher DRG 871 share reflects documentation practices after the January 2024 CDI program or true clinical differences not visible in claims. The review should also check whether transferred-in cases were coded consistently and whether the higher DRG 871 share is concentrated in specific documentation patterns or patient presentations. A sample review can answer these record-level questions, but the sampled charts cannot be extrapolated to Riverside's other stays or used to generalize beyond the reviewed cases.\"}"
+    }
+   ],
+   "input_tokens": 4487,
+   "output_tokens": 146
+  }
+ ]
+}

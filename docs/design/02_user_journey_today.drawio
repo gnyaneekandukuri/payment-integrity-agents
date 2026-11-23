@@ -1,0 +1,638 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="ov" name="1 · Current process">
+    <mxGraphModel dx="2490" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ov-1" parent="1" style="text;html=1;fontSize=20;align=left;verticalAlign=middle;" value="&lt;b&gt;Current process: from a hospital billing pattern to a payment decision&lt;/b&gt;" vertex="1">
+          <mxGeometry height="34" width="1500" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-2" parent="1" style="text;html=1;fontSize=13;align=left;verticalAlign=middle;fontColor=#555555;" value="How the work runs today, without an assistant. Northstar Health Plan (Medicare Advantage) and Riverside General Hospital are fictional." vertex="1">
+          <mxGeometry height="26" width="1500" x="20" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-3" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#E6F2FB;strokeColor=#6C9BC7;" value="&lt;b&gt;1. Question&lt;/b&gt;&lt;br&gt;Riverside bills 38% of infection stays as DRG 871 vs peer median 18%&lt;br&gt;&lt;br&gt;&lt;i&gt;Who:&lt;/i&gt; monitoring report → Maya" vertex="1">
+          <mxGeometry height="190" width="270" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#E6F2FB;strokeColor=#6C9BC7;" value="&lt;b&gt;2. Analysis (Maya, analyst)&lt;/b&gt;&lt;br&gt;Data quality, fair peers, alternative explanations&lt;br&gt;Each: supported / weakened / unresolved&lt;br&gt;&lt;br&gt;&lt;i&gt;Evidence:&lt;/i&gt; Northstar claims, provider relations" vertex="1">
+          <mxGeometry height="190" width="270" x="330" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-5" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFF6D6;strokeColor=#D6B656;" value="&lt;b&gt;3. Records, if justified&lt;/b&gt;&lt;br&gt;Unresolved questions → targeted request for 20 stays (manager approves)&lt;br&gt;&lt;br&gt;&lt;i&gt;Not&lt;/i&gt; a statistical sample; can&#39;t be extrapolated" vertex="1">
+          <mxGeometry height="190" width="270" x="640" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-6" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#E8F3EA;strokeColor=#6AA57A;" value="&lt;b&gt;4. Clinical + coding review&lt;/b&gt;&lt;br&gt;Sam: does the record demonstrate the criteria?&lt;br&gt;Lena: complete coding, regroup&lt;br&gt;Dr. Adeyemi: escalations&lt;br&gt;&lt;br&gt;&lt;i&gt;Findings:&lt;/i&gt; 4 / 10 / 5 / 1 (these stays only)" vertex="1">
+          <mxGeometry height="190" width="270" x="950" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#EEE8F7;strokeColor=#9A86C2;" value="&lt;b&gt;5. Authorized decision&lt;/b&gt;&lt;br&gt;Manager, compliance/legal, provider relations decide what happens next" vertex="1">
+          <mxGeometry height="190" width="270" x="1260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-8" edge="1" parent="1" source="ov-3" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-9" edge="1" parent="1" source="ov-4" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-10" edge="1" parent="1" source="ov-5" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-11" edge="1" parent="1" source="ov-6" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-12" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#F4F6F9;strokeColor=#888888;" value="&lt;b&gt;Routine selection (independent of any hospital review)&lt;/b&gt;&lt;br&gt;Pre-pay rules, post-pay audits, QA samples, appeal re-reviews, providers on approved prepayment review" vertex="1">
+          <mxGeometry height="110" width="270" x="950" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-13" edge="1" parent="1" source="ov-12" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;dashed=1;" target="ov-6" value="also feeds">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#F4F6F9;strokeColor=#888888;" value="&lt;b&gt;Close early&lt;/b&gt;&lt;br&gt;If analysis explains the pattern (e.g. fair peers + transfers), no records are requested" vertex="1">
+          <mxGeometry height="90" width="270" x="330" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-15" edge="1" parent="1" source="ov-4" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;dashed=1;" target="ov-14" value="explained">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-16" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="No further action (keep monitoring)" vertex="1">
+          <mxGeometry height="40" width="250" x="1561" y="323" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-17" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-18" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="Request additional evidence (most likely here)" vertex="1">
+          <mxGeometry height="40" width="250" x="1540" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-19" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-20" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="Adjust reviewed claims only, with appeal rights" vertex="1">
+          <mxGeometry height="40" width="250" x="1102" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-21" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-22" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="Provider education / joint review" vertex="1">
+          <mxGeometry height="40" width="250" x="1530" y="486" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-23" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-24" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="Statistically valid sample (separate approval)" vertex="1">
+          <mxGeometry height="40" width="250" x="1010" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-25" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-26" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="Prepayment review (approval + contract checks)" vertex="1">
+          <mxGeometry height="40" width="250" x="1439" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-27" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FFFFFF;strokeColor=#9A86C2;verticalAlign=middle;" value="SIU referral only if fraud indicators appear" vertex="1">
+          <mxGeometry height="40" width="250" x="1290" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-29" edge="1" parent="1" source="ov-7" style="endArrow=block;html=1;rounded=0;strokeWidth=2;strokeColor=#2E5C8A;fontSize=12;" target="ov-28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ov-30" parent="1" style="whiteSpace=wrap;html=1;rounded=1;align=left;verticalAlign=top;spacing=8;fontSize=12;arcSize=6;fillColor=#FDE4E1;strokeColor=#D9776C;verticalAlign=middle;fontSize=13;" value="&lt;b&gt;Key rules:&lt;/b&gt; a pattern is a question, not a finding  •  &#39;ruled out&#39; only when evidence shows it  •  targeted samples describe only the stays reviewed  •  clinical review is separate from DRG assignment  •  missing evidence stays missing  •  a human reviews every case  •  unusual billing or disputed diagnoses are not fraud evidence" vertex="1">
+          <mxGeometry height="60" width="1520" x="20" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="maya" name="2 · Maya – current journey">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="maya-1" value="&lt;b&gt;Maya Chen, payment integrity analyst · Current journey: reviewing a hospital&#39;s billing pattern&lt;/b&gt;" style="text;html=1;fontSize=20;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="2522" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-2" value="Question: fictional Riverside General bills 38% of infection-related stays as MS-DRG 871 vs a peer median of 18% (Northstar MA members). A pattern raises a question; it is not evidence of error or fraud." style="text;html=1;fontSize=13;align=left;verticalAlign=middle;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="20" y="56" width="2522" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-3" value="&lt;b&gt;Stage&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#1F3A5F;fontColor=#FFFFFF;strokeColor=#1F3A5F;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="96" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-4" value="&lt;b&gt;1. A question arrives&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="166" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-5" value="&lt;b&gt;2. Check data quality&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="382" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-6" value="&lt;b&gt;3. Build the peer comparison&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="598" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-7" value="&lt;b&gt;4. Test explanations&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="814" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-8" value="&lt;b&gt;5. Size the scale (hypothetically)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-9" value="&lt;b&gt;6. Recommend a targeted review&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-10" value="&lt;b&gt;7. Request records&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-11" value="&lt;b&gt;8. Clinical and coding review&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-12" value="&lt;b&gt;9. Interpret review findings&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-13" value="&lt;b&gt;10. Recommend next step&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-14" value="&lt;b&gt;11. Follow-through&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-15" value="&lt;b&gt;What they do&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="152" width="140" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-16" value="• Reads the quarterly monitoring report&lt;br&gt;• Sees Riverside&#39;s DRG 871 share is high and rising (22% → 38% in two years)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="166" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-17" value="• Checks for duplicates, feed or mapping errors&lt;br&gt;• Reconciles claims to paid amounts" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="382" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-18" value="• Chooses comparable hospitals (region, size, teaching status)&lt;br&gt;• Re-runs with an alternative peer group (referral hospitals)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="598" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-19" value="• Records each explanation as supported / weakened / unresolved&lt;br&gt;• Severity, transfers in, ICU use, length of stay, documentation change, sepsis definition" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="814" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-20" value="Builds a sensitivity table with explicit assumptions to judge whether review is proportionate" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-21" value="• Recommends records for 20 stays chosen to test the open questions (short stay, no ICU, not transferred)&lt;br&gt;• Manager approves; provider relations informed" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-22" value="• Sends request to Riverside&lt;br&gt;• Tracks receipts; chases missing" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-23" value="• Hands records to Sam (clinical reviewer), Lena (coder), Dr. Adeyemi (escalations)&lt;br&gt;• Waits" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-24" value="Summarizes per-stay results without extrapolating" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-25" value="Writes options for approvers: no action, more evidence, adjust reviewed claims, education, statistical sample, prepayment review, SIU only if fraud indicators" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-26" value="• Most likely: request evidence for the 5 unresolved stays and Riverside&#39;s sepsis documentation policy&lt;br&gt;• Track appeals on any adjusted claims&lt;br&gt;• Keep monitoring" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-27" value="&lt;b&gt;Who / where&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="333" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-28" value="• Monitoring report&lt;br&gt;• Work queue" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="166" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-29" value="• Claims warehouse&lt;br&gt;• Data / IT team" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="382" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-30" value="• Spreadsheets or BI tool&lt;br&gt;• Hospital attribute data" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="598" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-31" value="• Claims data&lt;br&gt;• Provider relations&lt;br&gt;• Contract repository" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="814" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-32" value="• Spreadsheet&lt;br&gt;• DRG weight tables" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-33" value="• Payment integrity manager&lt;br&gt;• Provider relations" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-34" value="• Hospital records department&lt;br&gt;• Portal, fax, mail" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-35" value="Clinical review team queue" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-36" value="Case file" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-37" value="• Manager&lt;br&gt;• Compliance / legal&lt;br&gt;• Provider relations" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-38" value="• Hospital&lt;br&gt;• Appeals&lt;br&gt;• Monitoring" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-39" value="&lt;b&gt;Evidence available&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="434" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-40" value="• Hospital-level DRG shares from Northstar claims&lt;br&gt;• Nothing yet about individual stays" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="166" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-41" value="Claim and payment records" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="382" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-42" value="Gap narrows from 38% vs 18% to 38% vs 24% with alternative peers" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="598" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-43" value="• Transfers: supported in part&lt;br&gt;• Severity: unresolved (mixed signals)&lt;br&gt;• Documentation change (new CDI program): unresolved&lt;br&gt;• Contract sepsis criteria: open question" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="814" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-44" value="• Range $0 to ~$504k under stated assumptions&lt;br&gt;• Not an overpayment estimate" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-45" value="• Rationale: unresolved questions need records&lt;br&gt;• Targeted sample: cannot be extrapolated" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-46" value="19 of 20 records received" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-47" value="Per-stay findings arrive as reviews finish" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-48" value="• 4 criteria demonstrated&lt;br&gt;• 10 not demonstrated (regrouped by coder)&lt;br&gt;• 5 cannot determine&lt;br&gt;• 1 record missing&lt;br&gt;• Describes these stays only" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-49" value="• Review findings&lt;br&gt;• Contract terms&lt;br&gt;• Sensitivity range (labelled)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-50" value="• Additional records&lt;br&gt;• Appeal outcomes over months" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-51" value="&lt;b&gt;Time (typical, assumed)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="560" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-52" value="Report quarterly; item may wait weeks" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="166" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-53" value="Hours to days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="382" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-54" value="1–3 days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="598" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-55" value="Days to weeks" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="814" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-56" value="Hours" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-57" value="Days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-58" value="30–60 days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-59" value="Weeks" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-60" value="Days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-61" value="Weeks" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-62" value="Months" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-63" value="&lt;b&gt;Pain points&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="621" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-64" value="Many hospitals listed; little context on why each differs" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="166" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-65" value="• Depends on data team for queries&lt;br&gt;• Errors found late waste later work" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="382" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-66" value="Peer choice is a judgment call and easy to challenge" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="598" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-67" value="• Each check is a new request&lt;br&gt;• Claims can&#39;t answer the clinical questions" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="814" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-68" value="Easy for a rough range to be misquoted as &#39;the overpayment&#39;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-69" value="• Approval loop&lt;br&gt;• Contract limits on record requests (open question)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-70" value="Long wait; partial returns" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-71" value="• Competes with everyday reviews&lt;br&gt;• Little visibility into progress" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-72" value="Pressure to turn a targeted sample into a hospital-wide rate" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-73" value="• Many sign-offs&lt;br&gt;• Relationship risk with the hospital" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-74" value="Outcomes arrive long after the work" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-75" value="&lt;b&gt;Thinking&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="757" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-76" value="“Different isn&#39;t wrong. Is this worth a look?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="166" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-77" value="“Am I looking at a real pattern or a data glitch?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="382" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-78" value="“Is this a fair comparison?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="598" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-79" value="“What&#39;s still unexplained, and can data answer it?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="814" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-80" value="“Is a records review worth the cost and provider burden?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-81" value="“Only records can answer what&#39;s left.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-82" value="“Another month before I learn anything.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-83" value="“My question is in someone else&#39;s backlog.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-84" value="“What do these findings actually let us say?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-85" value="“Which step is justified by what we actually know?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-86" value="“Did the findings hold up?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="maya-87" value="&lt;b&gt;Summary:&lt;/b&gt; Most of Maya&#39;s time goes into requesting, waiting and assembling evidence, not judging it. Moments that matter: a fair comparison (3), honest status of each explanation (4), not over-reading a targeted sample (9), recommending only what the evidence supports (10)." style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E8F3EA;strokeColor=#6AA57A;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="20" y="853" width="2522" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sam" name="3 · Sam – current journey">
+    <mxGraphModel dx="1600" dy="900" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sam-1" value="&lt;b&gt;Sam Okoro, clinical reviewer (RN) · Current journey: reviewing one inpatient claim&lt;/b&gt;" style="text;html=1;fontSize=20;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="2522" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-2" value="One claim billed as MS-DRG 871. Clinical question (Sam): does the record demonstrate the selected criteria (assumed Sepsis-3)? Coding question (Lena, coder): complete coding and regrouping. Fictional." style="text;html=1;fontSize=13;align=left;verticalAlign=middle;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="20" y="56" width="2522" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-3" value="&lt;b&gt;Stage&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#1F3A5F;fontColor=#FFFFFF;strokeColor=#1F3A5F;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="96" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-4" value="&lt;b&gt;1. Claim arrives&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="166" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-5" value="&lt;b&gt;2. Understand the claim&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="382" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-6" value="&lt;b&gt;3. Check the criteria&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="598" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-7" value="&lt;b&gt;4. Get a usable record&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="814" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-8" value="&lt;b&gt;5. Orient in the chart&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-9" value="&lt;b&gt;6. Gather evidence by criterion&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-10" value="&lt;b&gt;7. Judge the clinical question&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-11" value="&lt;b&gt;8. Escalate if needed&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-12" value="&lt;b&gt;9. Coding and regrouping&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-13" value="&lt;b&gt;10. Document and approve&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-14" value="&lt;b&gt;11. Appeal and re-review&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#2E5C8A;fontColor=#FFFFFF;strokeColor=#2E5C8A;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="96" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-15" value="&lt;b&gt;What they do&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="152" width="140" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-16" value="• Picks the next claim from the queue&lt;br&gt;• Source: Maya&#39;s targeted request OR routine selection (pre-pay rule, post-pay audit, QA sample, appeal re-review)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="166" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-17" value="Identifies principal diagnosis (sepsis) and the secondary diagnosis acting as the MCC" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="382" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-18" value="Looks up which clinical criteria apply under this hospital&#39;s contract" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="598" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-19" value="Confirms the record is complete enough; requests missing parts" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="814" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-20" value="• Opens a long, often scanned PDF&lt;br&gt;• Finds notes, vitals, labs, medications" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-21" value="• Infection evidence&lt;br&gt;• Baseline organ function&lt;br&gt;• Each SOFA system over time&lt;br&gt;• Lactate, vasopressors, fluids, timing&lt;br&gt;• Notes supporting AND contradicting evidence" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-22" value="• Concludes: criteria demonstrated / not demonstrated / cannot determine&lt;br&gt;• Lists what is missing or conflicting" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-23" value="Sends unclear or conflicting cases to Dr. Adeyemi (physician advisor)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-24" value="Lena validates ALL diagnoses (including the MCC) and regroups under MS-DRG v43" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-25" value="• Writes rationale with page citations&lt;br&gt;• Manager approves any adjustment&lt;br&gt;• Findings letter with appeal rights" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-26" value="• Hospital may appeal&lt;br&gt;• Sam or Dr. Adeyemi re-reviews; peer-to-peer possible" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFFFFF;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="152" width="210" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-27" value="&lt;b&gt;Who / where&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="333" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-28" value="Review work queue" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="166" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-29" value="• Claims system&lt;br&gt;• Grouper output" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="382" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-30" value="• Contract repository&lt;br&gt;• Policy team" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="598" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-31" value="• Hospital records&lt;br&gt;• Fax, portal" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="814" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-32" value="PDF viewer" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-33" value="• Chart&lt;br&gt;• Worksheet" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-34" value="• Worksheet&lt;br&gt;• Sepsis-3 / SOFA reference" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-35" value="Physician advisor" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-36" value="• Certified coder&lt;br&gt;• Official grouper" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-37" value="• Review system&lt;br&gt;• Manager&lt;br&gt;• Letter template" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-38" value="• Hospital appeals team&lt;br&gt;• Physician advisor" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#F4F6F9;strokeColor=#B0B7C3;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="333" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-39" value="&lt;b&gt;Evidence available&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="434" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-40" value="Claim: billed DRG, codes, dates" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="166" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-41" value="Diagnosis codes, present-on-admission flags" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="382" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-42" value="• Assumed: Sepsis-3 (infection + acute SOFA change ≥ 2)&lt;br&gt;• Contract may be silent (open question)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="598" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-43" value="Completeness: vitals, labs, notes, medication record, baseline history" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="814" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-44" value="Hundreds of pages, out of order, duplicates" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-45" value="• Values with dates and page numbers&lt;br&gt;• Gaps: &#39;not documented&#39; stays not documented" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-46" value="• Ortiz: demonstrated&lt;br&gt;• Lee: not demonstrated (complete record)&lt;br&gt;• Patel: cannot determine (uncertain baseline, conflicting notes)" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-47" value="Sam&#39;s evidence summary and open questions" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-48" value="• Validated codes → resulting DRG&lt;br&gt;• Payment difference known only now" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-49" value="Rationale, citations, validated DRG" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-50" value="Original findings + hospital&#39;s response" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E6F2FB;strokeColor=#6C9BC7;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="434" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-51" value="&lt;b&gt;Time (typical, assumed)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="560" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-52" value="Ongoing; long queue" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="166" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-53" value="10–15 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="382" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-54" value="10–30 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="598" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-55" value="Days to weeks if incomplete" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="814" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-56" value="15–30 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-57" value="45–90 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-58" value="15–30 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-59" value="Days" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-60" value="30–60 min" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-61" value="20–40 min plus approval" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-62" value="Weeks to months" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FFF6D6;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="560" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-63" value="&lt;b&gt;Pain points&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="621" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-64" value="• Queue often ordered by date, not risk&lt;br&gt;• Pre-pay claims have payment deadlines" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="166" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-65" value="• Code-heavy screens&lt;br&gt;• Rebuilds the &#39;why&#39; every time" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="382" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-66" value="• Terms buried in PDFs&lt;br&gt;• Silent contracts invite disputes" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="598" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-67" value="Partial records; deadlines run while waiting" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="814" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-68" value="No search on scanned pages" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-69" value="• Values scattered&lt;br&gt;• Easy to miss one reading&lt;br&gt;• Baselines often unsourced" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-70" value="• Missing baselines make it ambiguous&lt;br&gt;• Reviewers can differ" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-71" value="Physician time is scarce" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-72" value="• Hand-off between clinical and coding&lt;br&gt;• Sepsis support alone doesn&#39;t validate DRG 871" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-73" value="• Re-typing evidence already found&lt;br&gt;• Letter quality varies" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-74" value="• Whole chart re-read&lt;br&gt;• Some findings overturned" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#FDE4E1;strokeColor=#D9776C;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="621" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-75" value="&lt;b&gt;Thinking&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#DDE3EC;strokeColor=#B0B7C3;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="20" y="757" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-76" value="“Which of these is urgent?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="166" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-77" value="“What exactly drives this DRG?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="382" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-78" value="“Am I applying the right standard?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="598" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-79" value="“Is this enough to judge fairly?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="814" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-80" value="“Where&#39;s what matters?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-81" value="“Did I miss something that changes the answer?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1246" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-82" value="“Can I defend this from the record alone?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1462" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-83" value="“This needs a physician&#39;s judgment.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1678" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-84" value="“What does the complete coding support?”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1894" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-85" value="“This will be read closely on appeal.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-86" value="“I&#39;ll be reading this chart again.”" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#EEE8F7;strokeColor=#9A86C2;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="2326" y="757" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sam-87" value="&lt;b&gt;Summary:&lt;/b&gt; Most of Sam&#39;s time goes into finding, organizing and re-documenting evidence, not judging it. Moments that matter: a usable record (4), complete evidence including contradictions and gaps (6), an honest &#39;cannot determine&#39; (7), and the separate coding step (9)." style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;spacing=8;fontSize=12;fillColor=#E8F3EA;strokeColor=#6AA57A;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="20" y="853" width="2522" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

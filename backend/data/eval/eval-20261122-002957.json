@@ -1,0 +1,76 @@
+{
+ "results": [
+  {
+   "missing_facts": [],
+   "case": "CASE-PATEL",
+   "run_id": "RUN-20261122-002942-924d04",
+   "conclusion": "cannot_determine",
+   "sofa_change": 0,
+   "steps": 34,
+   "rejected": 1,
+   "input_tokens": 58495,
+   "output_tokens": 2031,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "baseline_uncertain": true,
+    "conflict_recorded": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-PATEL",
+   "run_id": "RUN-20261122-002942-164582",
+   "conclusion": "cannot_determine",
+   "sofa_change": 0,
+   "steps": 35,
+   "rejected": 0,
+   "input_tokens": 46500,
+   "output_tokens": 2153,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "baseline_uncertain": true,
+    "conflict_recorded": true
+   }
+  },
+  {
+   "missing_facts": [],
+   "case": "CASE-PATEL",
+   "run_id": "RUN-20261122-002942-8d1255",
+   "conclusion": "cannot_determine",
+   "sofa_change": 0,
+   "steps": 42,
+   "rejected": 0,
+   "input_tokens": 44867,
+   "output_tokens": 2229,
+   "checks": {
+    "completed": true,
+    "conclusion": true,
+    "sofa_in_range": true,
+    "key_evidence": 1.0,
+    "citations_valid": true,
+    "no_forbidden_words": true,
+    "baseline_uncertain": true,
+    "conflict_recorded": true
+   }
+  }
+ ],
+ "summary": {
+  "CASE-PATEL": {
+   "runs": 3,
+   "all_checks": 3,
+   "conclusion_correct": 3,
+   "median_steps": 35,
+   "avg_input_tokens": 49954
+  }
+ }
+}

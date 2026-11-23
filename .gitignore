@@ -1,0 +1,32 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node
+node_modules/
+dist/
+
+# local data
+*.db
+*.sqlite
+backend/data/runtime/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# local previews
+data_preview/
+
+# screenshots and uploads
+frontend/screenshots/
+backend/data/uploads/

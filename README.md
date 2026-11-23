@@ -27,17 +27,33 @@ Seven test records with known answers, each run three times: the agent reached t
 ## Stack
 Python (FastAPI, SQLite, PyMuPDF), a plain tool-calling loop over the OpenAI API (no agent framework), React + Vite + Tailwind.
 
-## Run it (Windows, PowerShell)
-Requirements: Python with [uv](https://docs.astral.sh/uv/), Node 20+, and an OpenAI API key in `.env` (copy `.env.example`).
+## Run it
+Requirements: Python 3.12+ with [uv](https://docs.astral.sh/uv/), and Node 20+.
 
+**An OpenAI API key is only needed for live agent runs.** Every agent step also has a **Replay** option that plays back a saved run, so you can explore the whole flow with no key and no network. For live runs, copy `.env.example` to `.env` and set `OPENAI_API_KEY` and `OPENAI_MODEL` (built and tested with `gpt-5.4-mini`).
+
+**macOS / Linux** (two terminals):
+```bash
+# terminal 1: build the fictional data and start the API
+cd backend
+uv sync
+uv run python -m tools.demo_reset
+uv run uvicorn app.main:app --port 8765
+
+# terminal 2: start the app
+cd frontend
+npm install
+npx vite --port 5199
+```
+
+**Windows (PowerShell):**
 ```powershell
 cd backend; uv sync; cd ..\frontend; npm install; cd ..
 .\reset.ps1      # build the fictional data, start both servers, open the browser
 .\stop.ps1       # stop both servers
 ```
-- App: http://localhost:5199 (API on http://localhost:8765)
-- Sample records to upload are in `demo_uploads\`.
-- Every agent step also has a **Replay** option that runs a saved run with no network.
+
+Then open http://localhost:5199. Start on **Leads**, open the Riverside lead, and run or replay the investigation; then open the **Clinical review queue**. Records to upload for the two claims awaiting records are in `demo_uploads/` (Samuel Adeyemi → Metro Regional; Joseph Kim → Crestview Regional). Running `tools.demo_reset` again returns everything to the starting state.
 
 ## Checks (from `backend\`)
 | Command | What it proves |
